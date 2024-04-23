@@ -47,11 +47,8 @@ function MovieList() {
     }
   };
 
-  // if (loading) return <p>Loading...</p>;
-  // if (error) return <p>Error loading movies: {error}</p>;
-
   return (
-    <div>
+    <main>
       <h1>Movie List</h1>
       <input
         value={newTitle}
@@ -97,7 +94,7 @@ function MovieList() {
           ))}
         </ul>
       )}
-    </div>
+    </main>
   );
 }
 

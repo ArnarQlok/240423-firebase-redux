@@ -31,7 +31,7 @@ const Auth = () => {
   };
 
   return (
-    <div>
+    <main>
       <h2>User Authentication</h2>
       {auth?.currentUser?.email ? (
         <p>Inloggad: {auth?.currentUser?.email}</p>
@@ -54,7 +54,7 @@ const Auth = () => {
       <button onClick={handleSignIn}>Sign In</button>
       <button onClick={handleSignInWithGoogle}>Sign in With Google</button>
       <button onClick={handleLogout}>Sign Out</button>
-    </div>
+    </main>
   );
 };
 
