@@ -72,7 +72,7 @@ function MovieList() {
       {error && <p>Error loading movies: {error}</p>}
       {loading && <p>Loading...</p>}
       {!loading && !error && (
-        <ul>
+        <ul style={{ listStyle: "none" }}>
           {movies.map((movie) => (
             <li key={movie.id}>
               <h3>

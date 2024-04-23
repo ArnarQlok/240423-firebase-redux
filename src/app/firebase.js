@@ -3,7 +3,7 @@ import { getAuth, GoogleAuthProvider} from "firebase/auth";
 import {getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
-  // Fyll i med din firebase config
+  // lägg in din firebase config information här
 };
 
 
